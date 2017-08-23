@@ -8,7 +8,7 @@ namespace UnityToolkit.Editor {
             
         }
         
-        [CustomMenuItem("Windows/Unity Toolkit/Advanced Inspector")]
+        [MenuItem("Windows/Unity Toolkit/Advanced Inspector")]
         public static void ShowAdvancedInspector() {
             EditorWindow window = EditorWindow.GetWindow(typeof(AdvancedInspector));
             window.Show();
